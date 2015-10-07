@@ -4,7 +4,7 @@ shortLabel popConsElements
 longLabel popCons constrained elements (>95% posterior probability)
 visibility dense
 priority 1
-itemRgb "On"
+itemRgb On
 type bigBed
 
 track popUnconsElements
@@ -13,7 +13,7 @@ shortLabel popUnconsElements
 longLabel popUncons unconstrained elements (>95% posterior probability)
 visibility dense
 priority 2
-itemRgb "On"
+itemRgb On
 type bigBed
 
 track gainOfFunctionCandidates
@@ -22,7 +22,7 @@ shortLabel GOF_Candidates
 longLabel Candidate gain-of-function popCons elements (<1% conservation across vertebrates according to phastCons)
 visibility dense
 priority 3
-itemRgb "On"
+itemRgb On
 type bigBed
 
 track lossOfFunctionCandidates
@@ -31,5 +31,5 @@ shortLabel LOF_Candidates
 longLabel Candidate loss-of-function popUncons elements (>1% conservation across vertebrates according to phastCons)
 visibility dense
 priority 4
-itemRgb "On"
+itemRgb On
 type bigBed
