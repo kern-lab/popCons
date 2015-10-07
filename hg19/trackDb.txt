@@ -1,5 +1,5 @@
 track popConsElements
-bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/data/popConsElements.bb
+bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/hg19/data/popConsElements.bb
 shortLabel popConsElements
 longLabel popCons constrained elements (>95% posterior probability)
 visibility dense
@@ -8,7 +8,7 @@ itemRgb on
 type bigBed
 
 track popUnconsElements
-bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/data/popUnConsElements.bb
+bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/hg19/data/popUnConsElements.bb
 shortLabel popUnconsElements
 longLabel popUncons unconstrained elements (>95% posterior probability)
 visibility dense
@@ -17,7 +17,7 @@ itemRgb on
 type bigBed
 
 track gainOfFunctionCandidates
-bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/data/popConsElements_GOF_0.1perc.bb
+bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/hg19/data/popConsElements_GOF_0.1perc.bb
 shortLabel GOF_Candidates
 longLabel Candidate gain-of-function popCons elements (<1% conservation across vertebrates according to phastCons)
 visibility dense
@@ -26,7 +26,7 @@ itemRgb on
 type bigBed
 
 track lossOfFunctionCandidates
-bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/data/popUnConsElements_LOF_15perc.bb
+bigDataUrl https://raw.githubusercontent.com/kern-lab/popCons/master/hg19/data/popUnConsElements_LOF_15perc.bb
 shortLabel LOF_Candidates
 longLabel Candidate loss-of-function popUncons elements (>1% conservation across vertebrates according to phastCons)
 visibility dense
