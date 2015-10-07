@@ -1,5 +1,5 @@
 track name="GOF_candidates" description="Candidate gain-of-function popCons elements (<1% conservation across vertebrates according to phastCons)" visibility=2 itemRgb="On"
-chr1	1778600	1793200	GOF_	0	.	1778600	1793200	255,0,0
+chr1	1778600	1793200	GOF_0	0	.	1778600	1793200	255,0,0
 chr1	9197500	9210500	GOF_1	0	.	9197500	9210500	255,0,0
 chr1	21362200	21377300	GOF_2	0	.	21362200	21377300	255,0,0
 chr1	23954400	23964500	GOF_3	0	.	23954400	23964500	255,0,0
