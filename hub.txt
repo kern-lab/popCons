@@ -1,0 +1,5 @@
+hub HumanPopCons
+shortLabel Human_popCons
+longLabel Human_popCons_and_popUncons_predictions
+genomesFile https://github.com/kern-lab/popCons/blob/master/genomes.txt
+email dan.schrider@rutgers.edu
